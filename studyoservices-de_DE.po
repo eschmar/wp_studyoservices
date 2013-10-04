@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: studyoservices\n"
+"POT-Creation-Date: 2013-10-03 21:40+0100\n"
+"PO-Revision-Date: 2013-10-03 21:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: studyoservices.php:41
+msgid "Service"
+msgstr "Service"
+
+#: studyoservices.php:42
+msgid "Add New"
+msgstr "Neuer Service"
+
+#: studyoservices.php:43
+msgid "Add New Service"
+msgstr "Neuen Service hinzufügen"
+
+#: studyoservices.php:44
+msgid "Edit Service"
+msgstr "Service bearbeiten"
+
+#: studyoservices.php:45
+msgid "New Service"
+msgstr "Neuen Service"
+
+#: studyoservices.php:46
+msgid "All Services"
+msgstr "Alle Services"
+
+#: studyoservices.php:47
+msgid "View Service"
+msgstr "Service anschauen"
+
+#: studyoservices.php:48
+msgid "Search Services"
+msgstr "Services durchsuchen"
+
+#: studyoservices.php:49
+msgid "No services found"
+msgstr "Keine Services gefunden"
+
+#: studyoservices.php:50
+msgid "No services found in the Trash"
+msgstr "Keine Services im Papierkorb gefunden"
+
+#: studyoservices.php:71 studyoservices.php:81
+msgid "Service Categories"
+msgstr "Service Kategorien"
+
+#: studyoservices.php:72
+msgid "Service Category"
+msgstr "Service Kategorie"
+
+#: studyoservices.php:73
+msgid "Search Service Categories"
+msgstr "Service Kategorien durchsuchen"
+
+#: studyoservices.php:74
+msgid "All Service Categories"
+msgstr "Alle Service Kategorien"
+
+#: studyoservices.php:75
+msgid "Parent Service Category"
+msgstr "Eltern Service Kategorie"
+
+#: studyoservices.php:76
+msgid "Parent Service Category:"
+msgstr "Eltern Service Kategorie:"
+
+#: studyoservices.php:77
+msgid "Edit Service Category"
+msgstr "Service Kategorie bearbeiten"
+
+#: studyoservices.php:78
+msgid "Update Service Category"
+msgstr "Service Kategorie aktualisieren"
+
+#: studyoservices.php:79
+msgid "Add New Service Category"
+msgstr "Neue Service Kategorie hinzufügen"
+
+#: studyoservices.php:80
+msgid "New Service Category"
+msgstr "Neue Service Kategorie"
+
+#: studyoservices.php:103
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: studyoservices.php:117 studyoservices.php:175
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: studyoservices.php:118
+msgid "Category"
+msgstr "Kategorie"
+
+#: studyoservices.php:119
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: studyoservices.php:164
+msgid "Attributes"
+msgstr "Attribute"
+
+#: studyoservices.php:176
+msgid "Services are displayed in ascending order."
+msgstr "Services werden in aufsteigender Reihenfolge ausgegeben."
+
+#: studyoservices.php:177
+msgid "CSS Classes"
+msgstr "CSS Klassen"
+
+#: studyoservices.php:178
+msgid "CSS classes added to this service."
+msgstr "CSS Klassen werden dem Listenelement hinzugefügt"
