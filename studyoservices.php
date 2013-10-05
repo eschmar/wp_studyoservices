@@ -243,6 +243,7 @@ function studyo_services_output($slug, $wrap_class = '', $ul_class = '', $img_cl
 			$output .= '<li class="'.$service_classes.'">';
 			$attachement = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
 			$output .= '<div class="'.$img_class.'"><img src="'.$attachement[0].'" alt="'.get_the_title().'"></div>';
+			$output .= '<h3>'.get_the_title().'</h3>';
 			$content = get_the_content();
 			if (!empty($content)) {
 				$output .= '<p>'.$content.'</p>';
