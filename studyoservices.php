@@ -243,6 +243,7 @@ function studyo_services_output($slug, $wrap_class = '', $ul_class = '', $img_cl
 			$output .= '<li class="'.$service_classes.'">';
 			$attachement = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
 			$output .= '<div class="'.$img_class.'"><img src="'.$attachement[0].'" alt="'.get_the_title().'"></div>';
+			$output .= '<h3>'.get_the_title().'</h3>';
 			$content = get_the_content();
 			if (!empty($content)) {
 				$output .= '<p>'.$content.'</p>';
@@ -273,8 +274,8 @@ function studyo_service_contextual_help( $contextual_help, $screen_id, $screen )
 		<p><strong>Content: </strong>Text</p>
 		<p><strong>Featured Image: </strong>Service Image</p>
 		<a href="https://github.com/eschmar/wp_studyoservices" target="_blank">More information here</a>';
-
 	}
 	return $contextual_help;
 }
 add_action( 'contextual_help', 'studyo_service_contextual_help', 10, 3 );
+
