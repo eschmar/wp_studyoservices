@@ -261,14 +261,12 @@ function studyo_services_output($slug, $wrap_class = '', $ul_class = '', $img_cl
  ***************************************************************************/
 function studyo_service_contextual_help( $contextual_help, $screen_id, $screen ) { 
 	if ( 'edit-service' == $screen->id ) {
-
 		$contextual_help = '<h2>Output</h2>
 		<p>Use this function to output a slider in your template:</p>
 		<i>studyo_services_output($slug, $wrap_class = "", $ul_class = "", $img_class = "" );</i><br/><br/>
 		<a href="https://github.com/eschmar/wp_studyoservices" target="_blank">More information here</a>';
 
 	} elseif ( 'service' == $screen->id ) {
-
 		$contextual_help = '<h2>Editing Services</h2>
 		<p><strong>Title: </strong>Heading, Image alt attribute</p>
 		<p><strong>Content: </strong>Text</p>
